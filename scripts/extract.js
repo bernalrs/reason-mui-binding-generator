@@ -6,8 +6,8 @@ import path from 'path';
 import { mkdir, readFileSync, writeFileSync } from 'fs';
 import kebabCase from 'lodash/kebabCase';
 import * as reactDocgen from 'react-docgen';
-const getStylesCreator = require(MuiPath + '/src/styles/getStylesCreator').default;
-const createMuiTheme = require(MuiPath + '/src/styles/createMuiTheme').default;
+const getStylesCreator = require(MuiPath + '/packages/material-ui/src/styles/getStylesCreator').default;
+const createMuiTheme = require(MuiPath + '/packages/material-ui/src/styles/createMuiTheme').default;
 const colors = require(MuiPath + '/src/colors');
 
 import findComponents from './find-components';

@@ -12,30 +12,36 @@
     "author": "Jonathan Siebern <jsiebern88@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "@babel/cli": "7.0.0-beta.46",
+        "@babel/core": "7.0.0-beta.46",
+        "@babel/plugin-transform-flow-strip-types": "7.0.0-beta.46",
+        "@babel/plugin-transform-object-assign": "7.0.0-beta.46",
+        "@babel/preset-env": "7.0.0-beta.46",
+        "@babel/preset-es2015": "^7.0.0-beta.46",
+        "@babel/preset-react": "7.0.0-beta.46",
+        "@babel/preset-stage-1": "7.0.0-beta.46",
         "@types/doctrine": "^0.0.3",
         "@types/lodash": "^4.14.108",
         "@types/node": "~10.0.0",
         "@types/object-hash": "^1.2.0",
         "@types/rimraf": "^2.0.2",
-        "babel-cli": "^6.26.0",
         "babel-plugin-flow-react-proptypes": "~24.0.0",
         "babel-plugin-preval": "^1.6.2",
-        "babel-plugin-transform-flow-strip-types": "^6.22.0",
-        "babel-plugin-transform-object-assign": "^6.22.0",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-react": "^6.24.1",
-        "babel-preset-stage-1": "^6.24.1",
         "bs-platform": "~3.0.0",
         "doctrine": "^2.1.0",
         "fs": "^0.0.1-security",
-        "next": "~6.0.0",
+        "next": "~6.0.1",
         "object-hash": "^1.3.0",
         "path": "^0.12.7",
         "react": "^16.0.0",
         "react-docgen": "^3.0.0-beta8",
+        "react-dom": "16.3.2",
         "reason-react": "~0.4.0",
-        "ts-node": "~6.0.0",
-        "typescript": "^2.5.2"
+        "ts-node": "~6.0.3",
+        "typescript": "^2.8.3"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@babel/node": "^7.0.0-beta.46",
+        "global": "^4.3.2"
+    }
 }

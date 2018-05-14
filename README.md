@@ -5,7 +5,7 @@ This library generates bindings for
 
 ## Prerequisites
 
-Clone & rename the `env.example.js` in the `scripts` folder and enter the path to your `material-ui` **master clone** (this is **not** the NPM version!!).
+Clone & rename the [env.example.js](https://github.com/jsiebern/reason-mui-binding-generator/blob/master/scripts/env.example.js) in the [scripts](https://github.com/jsiebern/reason-mui-binding-generator/tree/master/scripts) folder and enter the path to your `material-ui` **master clone** (this is **not** the NPM version!!).
 
 1. Install
    [reason-cli](https://reasonml.github.io/guide/editor-tools/global-installation#recommended-through-npmyarn).
